@@ -11,7 +11,7 @@ Give it a CSV with one label column per annotator and it reports:
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/annotation-qa-toolkit.git
+git clone https://github.com/mohdkashif55666/annotation-qa-toolkit.git
 cd annotation-qa-toolkit
 python -m annotation_qa.cli data/sample_sentiment_labels.csv -o data/sample_report.md
 pip install -r requirements.txt && pytest
